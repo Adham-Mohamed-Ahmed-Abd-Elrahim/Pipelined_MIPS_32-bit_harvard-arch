@@ -1,0 +1,29 @@
+// This Machine Code Calculates the GCD of two Numbers
+// In Hexadecimal Number
+00008020
+20100078                   // change the least two significant decimals with the first number in hexadecimal format
+00008820
+201100B4                   // change the least two significant decimals with the second number in hexadecimal format
+00009020
+12110006
+0211482A
+11200002
+02308822
+08000005
+02118022
+08000005
+00109020
+AC120000
+
+
+
+
+
+
+
+
+
+
+
+
+

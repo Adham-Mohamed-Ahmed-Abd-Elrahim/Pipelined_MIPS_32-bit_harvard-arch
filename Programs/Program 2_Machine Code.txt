@@ -1,0 +1,21 @@
+// This Machine Code Calculates the Factorial of a given Number
+00008020
+20100006            // change the least two significant decimals with the number in hexadecimal format
+00008820
+20110001
+12000003
+0230881C
+2210FFFF
+08000004
+AC110000
+
+
+
+
+
+
+
+
+
+
+
