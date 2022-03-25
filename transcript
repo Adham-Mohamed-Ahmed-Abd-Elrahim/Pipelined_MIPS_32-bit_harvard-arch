@@ -1,5 +1,5 @@
 # vsim work.P_MIPS 
-# Start time: 11:05:04 on Mar 25,2022
+# Start time: 15:06:52 on Mar 25,2022
 # Loading work.P_MIPS
 # Loading work.control_unit
 # Loading work.main_decoder
@@ -28,12 +28,11 @@
 add wave -position insertpoint sim:/P_MIPS/*
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: ADHM  Hostname: LAPTOP-AJFV60QA  ProcessID: 12516
-#           Attempting to use alternate WLF file "./wlft4si8ra".
+#           Attempting to use alternate WLF file "./wlftve8afd".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft4si8ra
-noforce sim:/P_MIPS/clk
+#           Using alternate file: ./wlftve8afd
 force -freeze sim:/P_MIPS/clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/P_MIPS/reset 1'b1 0
+force -freeze sim:/P_MIPS/reset 1 0
 run
 force -freeze sim:/P_MIPS/reset St0 0
 run
@@ -67,150 +66,5 @@ run
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# End time: 11:07:31 on Mar 25,2022, Elapsed time: 0:02:27
+# End time: 15:09:26 on Mar 25,2022, Elapsed time: 0:02:34
 # Errors: 0, Warnings: 2

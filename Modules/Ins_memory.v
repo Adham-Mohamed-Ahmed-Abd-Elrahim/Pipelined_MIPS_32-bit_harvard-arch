@@ -6,7 +6,7 @@ module ins_memory
 
 reg [width-1:0] ins_mem [0:depth-1] ;
 initial begin
-   $readmemh("Program 3_Machine Code.txt", ins_mem);
+   $readmemh("Program 1_Machine Code.txt", ins_mem);
 end
 assign instruction=ins_mem[pc_in>>2]; //divide by 2 
 
